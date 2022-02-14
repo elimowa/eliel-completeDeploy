@@ -8,7 +8,6 @@ workflows:
       - node/test
       - eb/deploy:
           application-name: eliel-completeDeploy
-          
           environment-name: Elielcompletedeploy-env
           filters:
             branches:
